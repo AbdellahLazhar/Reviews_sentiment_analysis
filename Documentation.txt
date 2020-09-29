@@ -3,7 +3,7 @@ Documentation
 --------------------
 Project info :     |
 --------------------
-This is a Sentiment Analysis project made with Naltural Language Processing using python. 
+This is a Sentiment Analysis project made with Natural Language Processing using python. 
 #-----------------------------------------------------------------------------------------------------------------------------#
 
 ---------------------
@@ -30,13 +30,14 @@ pandas, numpy, pickle, sys, os, io, re, CountVectorizer, MultinomialNB, train_te
 --------------------
 Steps :            |
 --------------------
-Importing Data Sets : amazon_cells_labelled.txt // yelp_labelled.txt // imdb_labelled.txt 
-Combining Data Sets
-Counting Total of each Category (Positive/Negative) using matplotlib
-Preprocessing : converting to lowercase, removing email adresses, removing IP addresses, removing punctaitions and special chracters, removing numbers, removing stop words.
-Spliting Data to Test (10%) and Training (90%)
-Creating model using Training data. With the TF-IDF as the vectorizer and the Stochastic Gradient Descend algorithm as the classifier. 
-Testing model with Test data to examine the accuracy, precision, recall and f1 results. The success of the model was 83%. Building confusion matrix, where we can see more clearly how accurate the estimates are.
+1- Importing Data Sets : amazon_cells_labelled.txt // yelp_labelled.txt // imdb_labelled.txt 
+2- Combining Data Sets
+3- Counting Total of each Category (Positive/Negative) using matplotlib
+4- Preprocessing : converting to lowercase, removing email adresses, removing IP addresses, removing punctaitions and special chracters, removing numbers, removing stop words.
+5- Spliting Data to Test (10%) and Training (90%)
+6- Creating model using Training data. With the TF-IDF as the vectorizer and the Stochastic Gradient Descend algorithm as the classifier. 
+7- Testing model with Test data to examine the accuracy, precision, recall and f1 results. The success of the model was 83%.
+8- Building confusion matrix, where we can see more clearly how accurate the estimates are.
 #-----------------------------------------------------------------------------------------------------------------------------#
 
 --------------------
