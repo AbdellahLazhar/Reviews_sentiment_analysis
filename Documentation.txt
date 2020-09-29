@@ -1,0 +1,48 @@
+Documentation
+
+--------------------
+Project info :     |
+--------------------
+This is a Sentiment Analysis project made with Naltural Language Processing using python. 
+#-----------------------------------------------------------------------------------------------------------------------------#
+
+---------------------
+Sentiment Analysis :|
+---------------------
+Sentiment analysis is one of the most common applications in natural language processing. With Sentiment analysis, we can decide what emotion a text is written.
+With the wide use of social media, the need to analyze the content that people share over social media is increasing day by day. Considering the volume of data coming through social media, it is quite difficult to do this with human power. Therefore, the need for applications that can quickly detect and respond to the positive or negative comments that people write is increasing too. 
+#-----------------------------------------------------------------------------------------------------------------------------#
+
+--------------------
+DataSet :          |
+--------------------
+This dataset was created with user reviews collected via 3 different websites (Amazon, Yelp, Imdb). These comments consist of restaurant, film and product reviews. Each record in the data set is labeled with two different emoticons. These are 1: Positive, 0: Negative.
+#-----------------------------------------------------------------------------------------------------------------------------#
+
+This Machine Learning model is built with the Python programming language using the sklearn and nltk library.
+
+--------------------
+Libraries Used :   |
+--------------------
+pandas, numpy, pickle, sys, os, io, re, CountVectorizer, MultinomialNB, train_test_split, LabelBinarizer, matplotlib, punctuation, digits, display, HTML,stopwords, stopwords, word_tokenize, RegexpTokenizer
+#-----------------------------------------------------------------------------------------------------------------------------#
+
+--------------------
+Steps :            |
+--------------------
+Importing Data Sets : amazon_cells_labelled.txt // yelp_labelled.txt // imdb_labelled.txt 
+Combining Data Sets
+Counting Total of each Category (Positive/Negative) using matplotlib
+Preprocessing : converting to lowercase, removing email adresses, removing IP addresses, removing punctaitions and special chracters, removing numbers, removing stop words.
+Spliting Data to Test (10%) and Training (90%)
+Creating model using Training data. With the TF-IDF as the vectorizer and the Stochastic Gradient Descend algorithm as the classifier. 
+Testing model with Test data to examine the accuracy, precision, recall and f1 results. The success of the model was 83%. Building confusion matrix, where we can see more clearly how accurate the estimates are.
+#-----------------------------------------------------------------------------------------------------------------------------#
+
+--------------------
+Conclusion :       |
+--------------------
+Following the developments in Artificial Intelligence, the number of Artificial Intelligence applications developed for natural language processing is increasing day by day. Applications developed with NLP will enable us to use infrastructure that works faster and more accurately by eliminating human power in many jobs.
+#-----------------------------------------------------------------------------------------------------------------------------#
+
+LAZHAR Abdellah
